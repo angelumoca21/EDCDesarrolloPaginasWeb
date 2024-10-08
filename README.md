@@ -1,1 +1,16 @@
-# EDCDesarrolloPaginasWeb
+# Taller: Desarrollo de Páginas Web
+
+**Duración:** 40 horas (20 sesiones)
+
+**Objetivo General:** El estudiantado aplicará los conocimientos básicos en lenguaje HTML y lenguaje CSS con la finalidad de realizar el desarrollo de su primera página web estática.
+
+**Temario**
+
+1. [Introducción]()
+2. [Herramientas para la creación de páginas web]()
+3. [Estructura básica de un documento HTML]()
+4. [Lenguaje HTML]()
+5. [Lenguaje CSS]()
+6. Proyecto final
+
+[**Link a moodle**](https://educacion.pilares.cdmx.gob.mx/)
