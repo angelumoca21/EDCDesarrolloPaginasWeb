@@ -22,7 +22,7 @@ HTML es un lenguaje que se compone por elementos que permiten definir la estruct
 
 Todos los elementos se dividen en dos categorías:
 
-- Elementos en bloque: estos son los elementos que estructuran la parte principal de la
+- **Elementos en bloque:** estos son los elementos que estructuran la parte principal de la
 página web, dividiendo una página en bloques coherentes. Un elemento a nivel de bloque
 siempre comienza con una nueva línea y ocupa todo el ancho de la página web, de
 izquierda a derecha.
@@ -30,7 +30,7 @@ izquierda a derecha.
 Los siguientes son algunos de los elementos en bloque en HTML:
 ```<address>, <article>, <aside>, <blockquote>, <canvas>, <dd>, <div>, <dl>, <dt>, <fieldset>,<figcaption>, <figure>, <footer>, <form>, <h1> hasta <h6>, <header>, <hr>, <li>, <main>,<nav>, <noscript>, <ol>, <output>, <p>, <pre>, <section>, <table>, <tfoot>, <ul> y <video>```
 
-- Elementos en línea: son aquellos elementos que diferencian la parte de un texto dado y le proporcionan una función particular. Estos elementos no comienzan con una nueva línea y toman el ancho según el requisito. Los elementos en línea se utilizan principalmente con otros elementos.
+- **Elementos en línea:** son aquellos elementos que diferencian la parte de un texto dado y le proporcionan una función particular. Estos elementos no comienzan con una nueva línea y toman el ancho según el requisito. Los elementos en línea se utilizan principalmente con otros elementos.
 
 Los siguientes son algunos de los elementos en bloque en HTML:
 ```<a>, <abbr>, <acronym>, <b>, <bdo>, <big>, <br>, <button>, <cite>, <code>, <dfn>, <em>, <i>,<img>, <input>, <kbd>, <label>, <map>, <object>, <q>, <samp>, <script>, <select>, <small>,<span>, <strong>, <sub>, <sup>, <textarea>, <time>, <tt>, <var>```
@@ -53,7 +53,7 @@ HTML5 introduce elementos específicos para poder definir secciones del document
 A partir de HTML5 se definen etiquetas que nos permiten estructurar el cuerpo de una página con una semántica específica para cada elemento: 
 ```<header> <hgroup> <nav> <section> <article> <aside> <footer> <figure> <figcaption> <time> <details> <summary> <mark>```
 
-Vamos ahora a estructurar una página en HTML5 desde cero. En este punto ya debimos de haber realizado maquetas del sitio, analizado la necesidades, así como haber verificado aspectos de usabilidad, accesibilidad y navegabilidad. Teniendo esto, partimos a andar en el camino de estructurarlo con HTML5. Una recomendación que se hace en estos casos es realizar primero la estructura HTML de las secciones más importantes del cuerpo del documento (cabecera, contenido principal, barra de navegación, pie, etcétera) y, luego, ir agregando los elementos que se incorporan en ellas: trabajaremos el código del cuerpo del documento con un encabezado <header>, una barra de navegación <nav>, seguido de un bloque principal denominado <section> que contiene dos artículos <article>, una barra con información adicional <aside> y también un pie <footer>.
+Vamos ahora a estructurar una página en HTML5 desde cero. En este punto ya debimos de haber realizado maquetas del sitio, analizado la necesidades, así como haber verificado aspectos de usabilidad, accesibilidad y navegabilidad. Teniendo esto, partimos a andar en el camino de estructurarlo con HTML5. Una recomendación que se hace en estos casos es realizar primero la estructura HTML de las secciones más importantes del cuerpo del documento (cabecera, contenido principal, barra de navegación, pie, etcétera) y, luego, ir agregando los elementos que se incorporan en ellas: trabajaremos el código del cuerpo del documento con un encabezado `<header>`, una barra de navegación `<nav>`, seguido de un bloque principal denominado `<section>` que contiene dos artículos `<article>`, una barra con información adicional `<aside>` y también un pie `<footer>`.
 
 ```
 <header>

@@ -40,7 +40,7 @@ A continuación, nos centraremos en conocer las características principales de 
 
 - Las hojas de estilo en cascada, tal es su traducción del inglés **Cascading Style Sheets (CSS)**, tienen como función establecer reglas de representación de un documento en un medio o dispositivo. Mediante estas reglas podremos establecer medidas, colores o cualquier otra característica de representación de una página web, para que se vea reflejada. 
 
-- JavaScript es un lenguaje multiparadigma que requiere de un intérprete para ser ejecutado, permite la creación de páginas dinámicas, con código que puede ejecutarse desde el lado cliente, alivianando la tarea del servidor y disminuyendo la cantidad de peticiones que se le hagan. Por sus características, resulta útil para validación de formularios, mostrar y aplicar efectos, y exhibir avisos en pantalla.
+- **JavaScript** es un lenguaje multiparadigma que requiere de un intérprete para ser ejecutado, permite la creación de páginas dinámicas, con código que puede ejecutarse desde el lado cliente, alivianando la tarea del servidor y disminuyendo la cantidad de peticiones que se le hagan. Por sus características, resulta útil para validación de formularios, mostrar y aplicar efectos, y exhibir avisos en pantalla.
 
 ![HTMLCSSJS](https://media.licdn.com/dms/image/v2/D5612AQGvsUSedZ4U3g/article-inline_image-shrink_1500_2232/article-inline_image-shrink_1500_2232/0/1705513570360?e=1733961600&v=beta&t=3yJfnbCgy5JbkjS63beu4tjMfXKm7pVTxt_hhsx9MbY)
 
