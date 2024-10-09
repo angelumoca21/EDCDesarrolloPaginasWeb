@@ -9,7 +9,7 @@ Normalmente las etiquetas se componen de una etiqueta de apertura (entre los sig
 </etiqueta>    
 ```
 
-HTML es un lenguaje que se compone por elementos que permiten definir la estructura del documento. Estos elementos son los que nos posibilitan determinar cómo estará armada la página y sus secciones. Las etiquetas nos brindan la oportunidad de definir los elementos en el código.
+HTML es un lenguaje que se compone por **elementos** que permiten definir la estructura del documento. Estos elementos son los que nos posibilitan determinar cómo estará armada la página y sus secciones. Las etiquetas nos brindan la oportunidad de definir los elementos en el código.
 
 ```
 <elemento1>
@@ -41,7 +41,7 @@ Un **atributo** en HTML son palabras especiales utilizadas dentro de la etiqueta
 
 ## Semántica
 
-En 2004, Ian Hickson, el autor de la especificación de HTML5, analizó 1.000.000.000 de páginas web utilizando el motor de Google, intentando identificar la manera en la que la web real estaba construida. Uno de los resultados de este análisis, fue la publicación de una lista con los nombres de clases más utilizados. Este estudio revela que los desarrolladores utilizan clases o IDs comunes para estructurar los documentos. Esto llevó a considerar que quizás fuese una buena idea crear etiquetas concretas para reflejar estas estructuras: la web semántica.
+En 2004, Ian Hickson, el autor de la especificación de HTML5, analizó 1,000,000,000 de páginas web utilizando el motor de Google, intentando identificar la manera en la que la web real estaba construida. Uno de los resultados de este análisis, fue la publicación de una lista con los nombres de clases más utilizados. Este estudio revela que los desarrolladores utilizan clases o IDs comunes para estructurar los documentos. Esto llevó a considerar que quizás fuese una buena idea crear etiquetas concretas para reflejar estas estructuras: la web semántica.
 
 HTML5 proporciona elementos semánticos que facilitan la comprensión del código. En este sentido, la semántica define el significado de palabras y frases, es decir, tener elementos semánticos es equivalente a tener elementos con significado. Los elementos semánticos tienen un significado simple y claro tanto para el navegador como para el desarrollador.
 
@@ -52,6 +52,8 @@ HTML5 introduce elementos específicos para poder definir secciones del document
 
 A partir de HTML5 se definen etiquetas que nos permiten estructurar el cuerpo de una página con una semántica específica para cada elemento: 
 ```<header> <hgroup> <nav> <section> <article> <aside> <footer> <figure> <figcaption> <time> <details> <summary> <mark>```
+
+![HTMLsemantico](https://static.semrush.com/blog/uploads/media/0a/0f/0a0fd07d0a6ee7a7f893b0e21379c0ae/ES-Semantic-Search-Non-Semantic.png)
 
 Vamos ahora a estructurar una página en HTML5 desde cero. En este punto ya debimos de haber realizado maquetas del sitio, analizado la necesidades, así como haber verificado aspectos de usabilidad, accesibilidad y navegabilidad. Teniendo esto, partimos a andar en el camino de estructurarlo con HTML5. Una recomendación que se hace en estos casos es realizar primero la estructura HTML de las secciones más importantes del cuerpo del documento (cabecera, contenido principal, barra de navegación, pie, etcétera) y, luego, ir agregando los elementos que se incorporan en ellas: trabajaremos el código del cuerpo del documento con un encabezado `<header>`, una barra de navegación `<nav>`, seguido de un bloque principal denominado `<section>` que contiene dos artículos `<article>`, una barra con información adicional `<aside>` y también un pie `<footer>`.
 

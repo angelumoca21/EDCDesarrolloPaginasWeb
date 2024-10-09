@@ -16,29 +16,31 @@ Hoy en día, a través de una página web podemos enviar correos electrónicos, 
 
 Un texto normal como por ejemplo, un libro, normalmente está limitado a una organización lineal o secuencial. Sin embargo, el hipertexto permite saltar de un punto a otro, en un mismo texto, o a otro texto a través de referencias. De este modo, en lugar de leer el texto de forma continua, en el hipertexto ciertos términos están relacionados y el texto se puede leer siguiendo diferentes caminos. Las relaciones en el hipertexto se establecen entre lo que se suele llamar como referencias, enlaces, vínculos o hipervínculos.
 
-Y, ¿qué es la **hipermedia**? El término hipermedia no figura en el diccionario de la lengua española de la RAE pero, podemos buscar un término relacionado con hipermedia, **multimedia**: *utiliza conjunta y simultáneamente diversos medios como imágenes, sonidos y texto, en la transmisión de una información.*
+![Hipertexto](https://3.bp.blogspot.com/_5ycdk3xdtoE/SM3GayyoFsI/AAAAAAAAABs/YVEj-OLt_UE/s400/hipertexto+2.png)
 
-Por tanto, un sistema multimedia es un sistema de comunicación en el que se emplean dos o más medios de comunicación distintos de forma concurrente. Un sistema multimedia puede integrar texto, voz, audio, fotografías, gráficos interactivos, vídeos, realidad virtual y otros.
+Y, ¿qué es la hipermedia? El término hipermedia no figura en el diccionario de la RAE pero, podemos buscar un término relacionado con hipermedia, **multimedia**: *utiliza conjunta y simultáneamente diversos medios como imágenes, sonidos y texto, en la transmisión de una información.* Por tanto, un sistema multimedia es un sistema de comunicación en el que se emplean dos o más medios de comunicación distintos de forma concurrente. Un sistema multimedia puede integrar texto, voz, audio, fotografías, gráficos interactivos, vídeos, realidad virtual y otros.
 
 En consecuencia **hipermedia** es: *conjunto estructurado de diversos medios como textos, gráficos, imágenes y sonidos unidos entre sí por enlaces y conexiones lógicas para la transmisión de una información.*
 
-Si la multimedia proporciona una gran riqueza a la información, el hipertexto aporta una estructura que permite que la información pueda presentarse y explorarse siguiendo distintas secuencias de acuerdo a las necesidades y preferencias del usuario. Existen muchos sistemas que se basan en el hipertexto y la hipermedia pero, la web es el sistema más conocido y por eso la web se ha convertido en sinónimo de hipertexto e hipermedia.
+Existen muchos sistemas que se basan en el hipertexto y la hipermedia pero, la web es el sistema más conocido y por eso la web se ha convertido en sinónimo de hipertexto e hipermedia.
+
+![Hipermedia](https://redholosxxi.com/wp-content/uploads/2022/08/soluciones-conectividad.jpg)
 
 ¿Qué son los **lenguajes de marcado**? Los lenguajes de etiquetas, también conocidos como lenguajes de marcado o de marcas, son los que nos permiten estructurar un documento mediante el uso de etiquetas. Los lenguajes de etiquetas no se identifican con los de programación; esto ocurre principalmente porque los lenguajes de etiquetas no definen algunos aspectos básicos presentes en los lenguajes de programación, como es el caso de funciones aritméticas o el uso de variables, por citar algunos ejemplos.
 
-El lenguaje de marcas más conocido y extendido es el HTML (“HyperText Markup Language”, “Lenguaje de Marcado de Hipertexto”) y es el mismo que Tim Berners-Lee a inicios de 1990 creó como un subconjunto de SGML (Standard Generalized Markup Language, otro lenguaje de marcado). 
-
+El lenguaje de marcas más conocido y extendido es el HTML (“HyperText Markup Language”, “Lenguaje de Marcado de Hipertexto”) y es el mismo que Tim Berners-Lee a inicios de 1990 creó.
 HTML es el lenguaje de etiquetas que funciona como una de las piedras angulares de la World Wide Web, llamado también como la Web, que no es más que un conjunto de documentos de hipertexto y/o hipermedios (páginas web) enlazados entre sí y accesibles desde internet.
 
 HTML ha tenido muchas actualizaciones a lo largo del tiempo, y la última versión de HTML es HTML5. En HTML5 se destacan sus características semánticas, las posibilidades multimedia que incorpora, las nuevas funciones para formulario y las características que se definen para poder integrarse con tecnologías que permitirán abrir una nueva etapa en Internet, en lo que se refiere a la arquitectura de las aplicaciones.
 
+![HTML5](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEc9A_S6BPxCDRp5WjMFEfXrpCu1ya2OO-Lw&s)
+
 ## Tecnologías de software para el desarrollo de páginas web
 
 Para poder aprovechar al máximo el potencial de HTML5 es fundamental también comprender el rol de las tecnologías que interactúan con este lenguaje de etiquetas y de qué manera deben integrarse.
+Nos centraremos en conocer las características principales de CSS y JavaScript.
 
-A continuación, nos centraremos en conocer las características principales de CSS y JavaScript.
-
-- Las hojas de estilo en cascada, tal es su traducción del inglés **Cascading Style Sheets (CSS)**, tienen como función establecer reglas de representación de un documento en un medio o dispositivo. Mediante estas reglas podremos establecer medidas, colores o cualquier otra característica de representación de una página web, para que se vea reflejada. 
+- Las **hojas de estilo en cascada**, tal es su traducción del inglés **Cascading Style Sheets (CSS)**, tienen como función establecer reglas de representación de un documento en un medio o dispositivo. Mediante estas reglas podremos establecer medidas, colores o cualquier otra característica de representación de una página web, para que se vea reflejada. 
 
 - **JavaScript** es un lenguaje multiparadigma que requiere de un intérprete para ser ejecutado, permite la creación de páginas dinámicas, con código que puede ejecutarse desde el lado cliente, alivianando la tarea del servidor y disminuyendo la cantidad de peticiones que se le hagan. Por sus características, resulta útil para validación de formularios, mostrar y aplicar efectos, y exhibir avisos en pantalla.
 
