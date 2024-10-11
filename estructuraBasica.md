@@ -39,6 +39,10 @@ Un **atributo** en HTML son palabras especiales utilizadas dentro de la etiqueta
 
 `<elemento atributo=”valor">Contenido del elemento</elemento>`
 
+**Elementos vacíos:** algunos elementos no poseen contenido, y son llamados elementos vacíos. Por ejemplo:
+`<img src="images/firefox-icon.png" alt="Mi imagen de prueba" />`
+Posee dos atributos, pero no hay etiqueta de cierre `</img>` ni contenido encerrado. Esto es porque un elemento de imagen no encierra contenido al cual afectar. Su propósito es desplegar una imagen en la página HTML, en el lugar en que aparece.
+
 ## Semántica
 
 En 2004, Ian Hickson, el autor de la especificación de HTML5, analizó 1,000,000,000 de páginas web utilizando el motor de Google, intentando identificar la manera en la que la web real estaba construida. Uno de los resultados de este análisis, fue la publicación de una lista con los nombres de clases más utilizados. Este estudio revela que los desarrolladores utilizan clases o IDs comunes para estructurar los documentos. Esto llevó a considerar que quizás fuese una buena idea crear etiquetas concretas para reflejar estas estructuras: la web semántica.
