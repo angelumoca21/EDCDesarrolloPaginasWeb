@@ -30,7 +30,6 @@ El navegador web es una herramienta esencial en el proceso de creación de pági
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8" />
         <title>Mi primera página web</title>
     </head>
     <body>

@@ -59,7 +59,11 @@ A partir de HTML5 se definen etiquetas que nos permiten estructurar el cuerpo de
 
 ![HTMLsemantico](https://static.semrush.com/blog/uploads/media/0a/0f/0a0fd07d0a6ee7a7f893b0e21379c0ae/ES-Semantic-Search-Non-Semantic.png)
 
-Vamos ahora a estructurar una página en HTML5 desde cero. En este punto ya debimos de haber realizado maquetas del sitio, analizado la necesidades, así como haber verificado aspectos de usabilidad, accesibilidad y navegabilidad. Teniendo esto, partimos a andar en el camino de estructurarlo con HTML5. Una recomendación que se hace en estos casos es realizar primero la estructura HTML de las secciones más importantes del cuerpo del documento (cabecera, contenido principal, barra de navegación, pie, etcétera) y, luego, ir agregando los elementos que se incorporan en ellas: trabajaremos el código del cuerpo del documento con un encabezado `<header>`, una barra de navegación `<nav>`, seguido de un bloque principal denominado `<section>` que contiene dos artículos `<article>`, una barra con información adicional `<aside>` y también un pie `<footer>`.
+Vamos ahora a estructurar una página en HTML5 desde cero. En este punto ya debimos de haber realizado maquetas del sitio, analizado la necesidades, así como haber verificado aspectos de usabilidad, accesibilidad y navegabilidad.
+
+![Mockup](https://img.freepik.com/vector-gratis/diseno-sitio-web-responsivo-diseno-plano_23-2149483805.jpg)
+
+ Teniendo esto, partimos a andar en el camino de estructurarlo con HTML5. Una recomendación que se hace en estos casos es realizar primero la estructura HTML de las secciones más importantes del cuerpo del documento (cabecera, contenido principal, barra de navegación, pie, etcétera) y, luego, ir agregando los elementos que se incorporan en ellas: trabajaremos el código del cuerpo del documento con un encabezado `<header>`, una barra de navegación `<nav>`, seguido de un bloque principal denominado `<section>` que contiene dos artículos `<article>`, una barra con información adicional `<aside>` y también un pie `<footer>`.
 
 ```
 <header>
