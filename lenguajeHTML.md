@@ -31,7 +31,7 @@ Las listas HTML se utilizan para especificar listas de información. Todas las l
     <li>Linea 4</li>
 </ol>
 ```
-- **Lista desordenada o lista con viñetas (ul):** todos los elementos de la lista están marcados con viñetas. La lista desordenada comienza con la etiqueta <ul> y los elementos de la lista comienzan con la etiqueta <li>.
+- **Lista desordenada o lista con viñetas (ul):** todos los elementos de la lista están marcados con viñetas. La lista desordenada comienza con la etiqueta `<ul>` y los elementos de la lista comienzan con la etiqueta `<li>`.
 ```
 <ul>
     <li>Linea 1</li>
@@ -65,11 +65,31 @@ En cada tabla, la fila de la tabla está definida por la etiqueta `<tr>`, el enc
 
 ```
 <table>
-    <tr><th>Nombre</th><th>Apellido</th><th>Puntaje</th></tr>
-    <tr><td>Sonoo</td><td>Jaiswal</td><td>60</td></tr>
-    <tr><td>James</td><td>William</td><td>80</td></tr>
-    <tr><td>Swati</td><td>Sironi</td><td>82</td></tr>
-    <tr><td>Chetna</td><td>Singh</td><td>72</td></tr>
+    <tr>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Puntaje</th>
+    </tr>
+    <tr>
+        <td>Sonoo</td>
+        <td>Jaiswal</td>
+        <td>60</td>
+    </tr>
+    <tr>
+        <td>James</td>
+        <td>William</td>
+        <td>80</td>
+    </tr>
+    <tr>
+        <td>Swati</td>
+        <td>Sironi</td>
+        <td>82</td>
+    </tr>
+    <tr>
+        <td>Chetna</td>
+        <td>Singh</td>
+        <td>72</td>
+    </tr>
 </table>
 ```
 
@@ -96,9 +116,17 @@ Si deseas que una celda abarque más de una columna, puedes usar el atributo col
 Si deseas que una celda abarque más de una fila, puedes usar el atributo rowspan sobre la etiqueta `<th>`. Este dividirá una celda en varias filas. El número de filas divididas dependerá de los valores de intervalo de filas.
 ```
 <table style=width:100% border=1>
-    <tr><th>Nombre</th><td>Omar Montoya</td></tr>
-    <tr><th rowspan=2>No. Movil</th><td>55123456</td></tr>
-    <tr><td>55654321</td></tr>
+    <tr>
+        <th>Nombre</th>
+        <td>Omar Montoya</td>
+    </tr>
+    <tr>
+        <th rowspan=2>No. Movil</th>
+        <td>55123456</td>
+    </tr>
+    <tr>
+        <td>55654321</td>
+    </tr>
 </table>
 ```
 
@@ -108,10 +136,30 @@ El título de una tabla en HTML se muestra encima de la tabla. Para colocarlo de
 ```
 <table border=1, style=width:100%>
     <caption>Registros de estudiantes</caption>
-    <tr><th>Nombre</th><th>Apellido</th><th>Puntaje</th></tr>
-    <tr><td>Leticia</td><td>Lopez</td><td>70</td></tr>
-    <tr><td>Miguel</td><td>Cortes</td><td>60</td></tr>
-     <tr><td>Erica</td><td>Robles</td><td>42</td></tr>
-    <tr><td>Ignacio</td><td>Torres</td><td>62</td></tr>
+    <tr>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Puntaje</th>
+    </tr>
+    <tr>
+        <td>Leticia</td>
+        <td>Lopez</td>
+        <td>70</td>
+    </tr>
+    <tr>
+        <td>Miguel</td>
+        <td>Cortes</td>
+        <td>60</td>
+    </tr>
+    <tr>
+        <td>Erica</td>
+        <td>Robles</td>
+        <td>42</td>
+    </tr>
+    <tr>
+        <td>Ignacio</td>
+        <td>Torres</td>
+        <td>62</td>
+    </tr>
 </table>
 ```
