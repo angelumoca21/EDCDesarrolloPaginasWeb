@@ -4,14 +4,14 @@
 
 Los elementos de encabezado permiten especificar que ciertas partes del contenido son encabezados, o subencabezados del contenido. De la misma forma que un libro tiene un título principal, y que a su vez puede tener títulos por cada capítulo individual, y subtítulos dentro de ellos, un documento HTML puede tenerlos también. HTML posee seis niveles de encabezados `<h1>...<h6>`
 
-´´´
+```
 <h1>Título principal</h1>
 <h2>Título de nivel superior</h2>
 <h3>Subtítulo</h3>
 <h4>Sub-subtítulo</h4>
 <h5>Sub-sub-subtítulo</h5>
 <h6>Sub-sub-sub-subtítulo</h6>
-´´´
+```
 
 ## Párrafos
 
