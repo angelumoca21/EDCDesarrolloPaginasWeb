@@ -15,7 +15,7 @@ Los elementos de encabezado permiten especificar que ciertas partes del contenid
 
 ## Párrafos
 
-Los elementos <p> se utilizan para encerrar párrafos de texto.
+Los elementos `<p>` se utilizan para encerrar párrafos de texto.
 
 `<p>Este es un párrafo</p>`
 
@@ -58,6 +58,12 @@ Las listas HTML se utilizan para especificar listas de información. Todas las l
 ```
 Podemos crear una lista dentro de otra lista, que se denominará Lista anidada.
 
+Ejercicio: realiza la codificación para realizar la siguiente lista anidada:
+
+![ListaAnidada](https://escholarium.educarex.es/useruploads/ctx/a/2997399/r/s/602479/ejerciciolistas3_988351.png?idcurso=59679)
+
+[Solución de ejercicio de lista anidada]()
+
 ## Tablas
 
 La etiqueta de `<table>` en HTML se utiliza para mostrar datos en forma tabular (fila*columna). Podemos crear una tabla para mostrar datos en forma tabular, usando el elemento `<table>`, con la ayuda de los elementos `<tr>, <td> y <th>`.
@@ -89,43 +95,6 @@ En cada tabla, la fila de la tabla está definida por la etiqueta `<tr>`, el enc
         <td>Chetna</td>
         <td>Singh</td>
         <td>72</td>
-    </tr>
-</table>
-```
-
-### Tabla en HTML con colspan
-
-Si deseas que una celda abarque más de una columna, puedes usar el atributo colspan sobre la etiqueta `<th>`. El atributo dividirá una celda en varias columnas, y el número de columnas dependerá del valor del atributo colspan.
-
-```
-<table style=width:100% border=1>
-    <tr>
-        <th>Nombre</th>
-        <th colspan=2>No. Movil</th>
-    </tr>
-    <tr>
-        <td>Omar Montoya</td>
-        <td>55123456</td>
-        <td>55654321</td>
-    </tr>
-</table>
-```
-
-### Tabla en HTML con colspan
-
-Si deseas que una celda abarque más de una fila, puedes usar el atributo rowspan sobre la etiqueta `<th>`. Este dividirá una celda en varias filas. El número de filas divididas dependerá de los valores de intervalo de filas.
-```
-<table style=width:100% border=1>
-    <tr>
-        <th>Nombre</th>
-        <td>Omar Montoya</td>
-    </tr>
-    <tr>
-        <th rowspan=2>No. Movil</th>
-        <td>55123456</td>
-    </tr>
-    <tr>
-        <td>55654321</td>
     </tr>
 </table>
 ```
@@ -163,3 +132,80 @@ El título de una tabla en HTML se muestra encima de la tabla. Para colocarlo de
     </tr>
 </table>
 ```
+
+![Tabla](https://cdn.kastatic.org/ka-perseus-images/bb9d07dd017b61ac3dbab38d6b41c9146ff56811.svg)
+
+### Tabla en HTML con colspan
+
+Si deseas que una celda abarque más de una columna, puedes usar el atributo colspan sobre la etiqueta `<th>`. El atributo dividirá una celda en varias columnas, y el número de columnas dependerá del valor del atributo colspan.
+
+```
+<table style=width:100% border=1>
+    <tr>
+        <th>Nombre</th>
+        <th colspan=2>No. Movil</th>
+    </tr>
+    <tr>
+        <td>Omar Montoya</td>
+        <td>55123456</td>
+        <td>55654321</td>
+    </tr>
+</table>
+```
+
+### Tabla en HTML con rowspan
+
+Si deseas que una celda abarque más de una fila, puedes usar el atributo rowspan sobre la etiqueta `<th>`. Este dividirá una celda en varias filas. El número de filas divididas dependerá de los valores de intervalo de filas.
+```
+<table style=width:100% border=1>
+    <tr>
+        <th>Nombre</th>
+        <td>Omar Montoya</td>
+    </tr>
+    <tr>
+        <th rowspan=2>No. Movil</th>
+        <td>55123456</td>
+    </tr>
+    <tr>
+        <td>55654321</td>
+    </tr>
+</table>
+```
+
+![Tabla2]()
+
+Ejercicio: realiza la codificación de la siguiente tabla
+
+![Tabla3](https://disenowebakus.net/imagenes/articulos/thead-tbody-tfoot-tabla-html.jpg)
+
+## Hipervínculos
+
+La etiqueta **anchor** `<a>` en HTML define un hipervínculo que vincula una página a otra página. Puede crear un hipervínculo a otra página web, así como a archivos, ubicación o cualquier URL. El atributo **href** es el atributo más importante de la etiqueta `<a>` en HTML y la que vincula a una determinada página o URL.
+
+`<a href=linkPagina>Click para ir a mi otra pagina web</a>`
+
+Si queremos abrir ese enlace en otra página, podemos usar el atributo **target**. Con la ayuda de este atributo la segunda página se abrirá en otra ventana del navegador.
+
+`<a href=linkPagina target=_blank>Link</a>`
+
+## Imágenes
+
+La etiqueta img en HTML se utiliza para mostrar una imagen en una página web. La etiqueta img es una etiqueta vacía que solo contiene atributos, las etiquetas de cierre no se utilizan en el elemento img.
+
+`<img src="imagen.jpg" alt="Imagen" width=100% height=100%/>`
+
+## Imagen con hipervínculo
+
+Podemos enlazar una imagen con otra página o podemos usar una imagen como enlace. Para hacer esto, coloque la etiqueta <img> dentro de la etiqueta <a>.
+
+`<a href=https://adip.cdmx.gob.mx/><img src=ADIP.jpg height=50% width=100% alt="Logo ADIP"></a>`
+
+### Atributos de la etiqueta img en HTML
+
+- **scr:** describe la fuente o ruta de la imagen. Le indica al navegador dónde buscar la imagen en el servidor. La ubicación de la imagen puede estar en el mismo directorio o en otro servidor. 
+
+- **alt:** define un texto alternativo para la imagen, si no se puede mostrar. El valor del atributo alt describe la imagen en palabras.
+
+- **width:** se utiliza para especificar el ancho para mostrar la imagen.
+
+- **height:** se utiliza para especificar lo largo para mostrar la imagen.
