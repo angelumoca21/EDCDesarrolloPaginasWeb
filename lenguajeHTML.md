@@ -60,7 +60,7 @@ Podemos crear una lista dentro de otra lista, que se denominará Lista anidada.
 
 Ejercicio: realiza la codificación para realizar la siguiente lista anidada:
 
-![ListaAnidada](https://escholarium.educarex.es/useruploads/ctx/a/2997399/r/s/602479/ejerciciolistas3_988351.png)
+![ListaAnidada](./imagenes/listaAnidada.png)
 
 [Solución de ejercicio de lista anidada](https://github.com/angelumoca21/EDCDesarrolloPaginasWeb/blob/main/ejercicioListaAnidada.html)
 
