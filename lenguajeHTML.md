@@ -133,8 +133,6 @@ El título de una tabla en HTML se muestra encima de la tabla. Para colocarlo de
 </table>
 ```
 
-![Tabla](https://cdn.kastatic.org/ka-perseus-images/bb9d07dd017b61ac3dbab38d6b41c9146ff56811.svg)
-
 ### Tabla en HTML con colspan
 
 Si deseas que una celda abarque más de una columna, puedes usar el atributo colspan sobre la etiqueta `<th>`. El atributo dividirá una celda en varias columnas, y el número de columnas dependerá del valor del atributo colspan.
@@ -172,11 +170,15 @@ Si deseas que una celda abarque más de una fila, puedes usar el atributo rowspa
 </table>
 ```
 
+Ejercicios: realiza la codificación de la siguientes tablas.
+
+![Tabla](https://cdn.kastatic.org/ka-perseus-images/bb9d07dd017b61ac3dbab38d6b41c9146ff56811.svg)
+
 ![Tabla2](./imagenes/ejercicioTablas.png)
 
-Ejercicio: realiza la codificación de la siguiente tabla
-
 ![Tabla3](https://disenowebakus.net/imagenes/articulos/thead-tbody-tfoot-tabla-html.jpg)
+
+![soluciónTablas](./ejercicioTabla.html)
 
 ## Hipervínculos
 
@@ -194,9 +196,9 @@ La etiqueta img en HTML se utiliza para mostrar una imagen en una página web. L
 
 `<img src="imagen.jpg" alt="Imagen" width=100% height=100%/>`
 
-## Imagen con hipervínculo
+### Imagen con hipervínculo
 
-Podemos enlazar una imagen con otra página o podemos usar una imagen como enlace. Para hacer esto, coloque la etiqueta <img> dentro de la etiqueta <a>.
+Podemos enlazar una imagen con otra página o podemos usar una imagen como enlace. Para hacer esto, coloque la etiqueta `<img>` dentro de la etiqueta `<a>`.
 
 `<a href=https://adip.cdmx.gob.mx/><img src=ADIP.jpg height=50% width=100% alt="Logo ADIP"></a>`
 
@@ -209,3 +211,5 @@ Podemos enlazar una imagen con otra página o podemos usar una imagen como enlac
 - **width:** se utiliza para especificar el ancho para mostrar la imagen.
 
 - **height:** se utiliza para especificar lo largo para mostrar la imagen.
+
+## 
