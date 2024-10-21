@@ -48,7 +48,7 @@ Nos centraremos en conocer las características principales de CSS y JavaScript.
 
 Es importante que todo el mundo tenga acceso a la web, pero también es fundamental que todos comprendamos las herramientas que utilizamos para acceder a ella. Usamos navegadores web como Mozilla Firefox, Google Chrome, Microsoft Edge y Apple Safari todos los días, pero ¿entendemos qué son y cómo funcionan?
 
-Un **navegador web** te lleva a cualquier lugar de Internet. Recupera información de otras partes de la web y la muestra en tu escritorio o dispositivo móvil. La información se transfiere mediante el Protocolo de Transferencia de Hipertexto (HTTP), que define cómo se transmiten el texto, las imágenes y el video en la web. Esta información debe compartirse y mostrarse en un formato consistente para que las personas que utilizan cualquier navegador, en cualquier parte del mundo, puedan ver la información.
+Un **navegador web** te lleva a cualquier lugar de Internet. Recupera información de otras partes de la web y la muestra en tu escritorio o dispositivo móvil. La información se transfiere mediante el Protocolo de Transferencia de HiperTexto (HTTP), que define cómo se transmiten el texto, las imágenes y el video en la web. Esta información debe compartirse y mostrarse en un formato consistente para que las personas que utilizan cualquier navegador, en cualquier parte del mundo, puedan ver la información.
 
 Cuando el navegador web obtiene datos de un servidor conectado a Internet, utiliza un software llamado motor de renderizado para traducir esos datos en texto e imágenes. Estos datos están escritos en HTML y los navegadores web leen este código para construir lo que vemos, escuchamos y experimentamos en Internet.
 

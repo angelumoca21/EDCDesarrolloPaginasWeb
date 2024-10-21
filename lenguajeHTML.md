@@ -17,12 +17,13 @@ Los elementos de encabezado permiten especificar que ciertas partes del contenid
 
 Los elementos `<p>` se utilizan para encerrar párrafos de texto.
 
-`<p>Este es un párrafo</p>`
+```<p>Este es un párrafo</p>```
 
 ## Listas
 
 Las listas HTML se utilizan para especificar listas de información. Todas las listas pueden contener uno o más elementos de lista. Hay tres tipos diferentes de listas HTML:
-- **Lista Ordenada o Lista Numerada (ol):** todos los elementos de la lista están marcados con números de forma predeterminada. La lista ordenada comienza con la etiqueta `<ol>` y los elementos de la lista comienzan con la etiqueta `<li>`.
+
+- **Lista Ordenada o Lista Numerada:** todos los elementos de la lista están marcados con números de forma predeterminada. La lista ordenada comienza con la etiqueta `<ol>` y los elementos de la lista comienzan con la etiqueta `<li>`.
 ```
 <ol>
     <li>Linea 1</li>
@@ -31,7 +32,7 @@ Las listas HTML se utilizan para especificar listas de información. Todas las l
     <li>Linea 4</li>
 </ol>
 ```
-- **Lista desordenada o lista con viñetas (ul):** todos los elementos de la lista están marcados con viñetas. La lista desordenada comienza con la etiqueta `<ul>` y los elementos de la lista comienzan con la etiqueta `<li>`.
+- **Lista desordenada o lista con viñetas:** todos los elementos de la lista están marcados con viñetas. La lista desordenada comienza con la etiqueta `<ul>` y los elementos de la lista comienzan con la etiqueta `<li>`.
 ```
 <ul>
     <li>Linea 1</li>
@@ -42,8 +43,8 @@ Las listas HTML se utilizan para especificar listas de información. Todas las l
 ```
 - **Lista de descripción o Lista de definición (dl):** es muy apropiada cuando se desea presentar un glosario o una lista de términos. La lista de definiciones en HTML contiene las siguientes tres etiquetas:
     - La etiqueta `<dl>`: define el inicio de la lista.
-    - La etiqueta `<dt>`:define un término.
-    - La etiqueta `<dd>`:define la definición del término (descripción).
+    - La etiqueta `<dt>`: define un término.
+    - La etiqueta `<dd>`: define la definición del término (descripción).
 ```
 <dl>
     <dt>Aries</dt>
@@ -62,12 +63,12 @@ Ejercicio: realiza la codificación para realizar la siguiente lista anidada:
 
 ![ListaAnidada](./imagenes/listaAnidada.png)
 
-[Solución de ejercicio de lista anidada](https://github.com/angelumoca21/EDCDesarrolloPaginasWeb/blob/main/ejercicioListaAnidada.html)
+[Solución de ejercicio de lista anidada](./solucionesyarchivosHTML/ejercicioListaAnidada.html)
 
 ## Tablas
 
-La etiqueta de `<table>` en HTML se utiliza para mostrar datos en forma tabular (fila*columna). Podemos crear una tabla para mostrar datos en forma tabular, usando el elemento `<table>`, con la ayuda de los elementos `<tr>, <td> y <th>`.
-En cada tabla, la fila de la tabla está definida por la etiqueta `<tr>`, el encabezado de la tabla está definido por `<th>` y los datos de la tabla están definidos por las etiquetas `<td>`.
+La etiqueta de `<table>` en HTML se utiliza para mostrar datos en forma tabular (fila*columna). Podemos crear una tabla para mostrar datos en forma tabular, usando el elemento `<table>`, con la ayuda de las etiquetas `<tr>, <td> y <th>`.
+En cada tabla, la fila (row) de la tabla está definida por la etiqueta `<tr>`, el encabezado (header) de la tabla está definido por `<th>` y los datos (data) de la tabla están definidos por las etiquetas `<td>`.
 
 ```
 <table>
@@ -99,9 +100,9 @@ En cada tabla, la fila de la tabla está definida por la etiqueta `<tr>`, el enc
 </table>
 ```
 
-### Tabla en HTML con caption
+### Tabla en con caption
 
-El título de una tabla en HTML se muestra encima de la tabla. Para colocarlo debe usarse la etiqueta caption solo después de la etiqueta table.
+El título de una tabla en HTML se muestra encima de la tabla. Para colocarlo debe usarse la etiqueta `<caption>´ solo después de la etiqueta table.
 ```
 <table border=1, style=width:100%>
     <caption>Registros de estudiantes</caption>
@@ -133,7 +134,7 @@ El título de una tabla en HTML se muestra encima de la tabla. Para colocarlo de
 </table>
 ```
 
-### Tabla en HTML con colspan
+### Tabla con colspan
 
 Si deseas que una celda abarque más de una columna, puedes usar el atributo colspan sobre la etiqueta `<th>`. El atributo dividirá una celda en varias columnas, y el número de columnas dependerá del valor del atributo colspan.
 
@@ -151,7 +152,7 @@ Si deseas que una celda abarque más de una columna, puedes usar el atributo col
 </table>
 ```
 
-### Tabla en HTML con rowspan
+### Tabla con rowspan
 
 Si deseas que una celda abarque más de una fila, puedes usar el atributo rowspan sobre la etiqueta `<th>`. Este dividirá una celda en varias filas. El número de filas divididas dependerá de los valores de intervalo de filas.
 ```
@@ -178,38 +179,151 @@ Ejercicios: realiza la codificación de la siguientes tablas.
 
 ![Tabla3](https://disenowebakus.net/imagenes/articulos/thead-tbody-tfoot-tabla-html.jpg)
 
-![soluciónTablas](./ejercicioTabla.html)
+[soluciónTablas](./solucionesyarchivosHTML/ejercicioTabla.html)
 
 ## Hipervínculos
 
 La etiqueta **anchor** `<a>` en HTML define un hipervínculo que vincula una página a otra página. Puede crear un hipervínculo a otra página web, así como a archivos, ubicación o cualquier URL. El atributo **href** es el atributo más importante de la etiqueta `<a>` en HTML y la que vincula a una determinada página o URL.
-
-`<a href=linkPagina>Click para ir a mi otra pagina web</a>`
+``
+```<a href=linkPagina>Click para ir a mi otra pagina web</a>```
 
 Si queremos abrir ese enlace en otra página, podemos usar el atributo **target**. Con la ayuda de este atributo la segunda página se abrirá en otra ventana del navegador.
 
-`<a href=linkPagina target=_blank>Link</a>`
+```<a href=linkPagina target=_blank>Link</a>```
 
 ## Imágenes
 
-La etiqueta img en HTML se utiliza para mostrar una imagen en una página web. La etiqueta img es una etiqueta vacía que solo contiene atributos, las etiquetas de cierre no se utilizan en el elemento img.
+La etiqueta **img** se utiliza para mostrar una imagen en una página web, es una etiqueta vacía que solo contiene atributos, las etiquetas de cierre no se utilizan en el elemento img.
 
-`<img src="imagen.jpg" alt="Imagen" width=100% height=100%/>`
+```<img src="imagen.jpg" alt="Imagen" width=100% height=100%/>```
 
 ### Imagen con hipervínculo
 
 Podemos enlazar una imagen con otra página o podemos usar una imagen como enlace. Para hacer esto, coloque la etiqueta `<img>` dentro de la etiqueta `<a>`.
 
-`<a href=https://adip.cdmx.gob.mx/><img src=ADIP.jpg height=50% width=100% alt="Logo ADIP"></a>`
+```<a href=https://adip.cdmx.gob.mx/><img src=ADIP.jpg height=50% width=100% alt="Logo ADIP"></a>```
 
 ### Atributos de la etiqueta img en HTML
 
 - **scr:** describe la fuente o ruta de la imagen. Le indica al navegador dónde buscar la imagen en el servidor. La ubicación de la imagen puede estar en el mismo directorio o en otro servidor. 
 
-- **alt:** define un texto alternativo para la imagen, si no se puede mostrar. El valor del atributo alt describe la imagen en palabras.
+- **alt:** define un texto alternativo para la imagen, si no se puede mostrar. El valor del atributo describe la imagen en palabras.
 
 - **width:** se utiliza para especificar el ancho para mostrar la imagen.
 
 - **height:** se utiliza para especificar lo largo para mostrar la imagen.
 
-## 
+## Videos
+
+HTML5 también admite la etiqueta `<video>`. La etiqueta de video en HTML se usa para transmitir archivos de video, como clips de películas, clips de canciones, en la página web.
+
+```
+<video src="ejemploVideo.mp4" controls autoplay loop height="50">
+    Tu navegador no admite el elemento video.
+</video>
+```
+
+# Formularios
+
+Un formulario en HTML es una sección de un documento que contiene controles como campos de texto, campos de contraseña, casillas de verificación, botones de radio, botón de envío, menús, etc. Un formulario facilita al usuario ingresar datos que se enviarán al servidor para su procesamiento, como nombre, dirección de correo electrónico, contraseña, número de teléfono, etc. Se requieren formularios si desea recopilar datos. Por ejemplo: si un usuario desea comprar algunos artículos en Internet, debe completar un formulario, como la dirección de envío y los detalles de la tarjeta de crédito/débito, para que el artículo pueda enviarse a la dirección indicada.
+
+La sintaxis de un formulario es: 
+```
+<form>
+    <!--controles de entrada, campo de texto, área de texto, botes, etc.-->
+</form>
+```
+
+## Input
+
+Es un elemento fundamental de la etiqueta `<form>`. Se utiliza para crear campos de formulario, para recibir información del usuario. El siguiente es un ejemplo para mostrar la entrada de texto simple.
+
+```
+<form>
+    Introduce tu nombre:
+    <input type="text"><br>
+    Introduce tu contraseña:
+    <input type="password">
+</form>
+```
+
+## Textarea
+
+Se usa para insertar texto de varias líneas en un formulario. El tamaño se puede especificar usando el atributo rows o cols.
+
+```
+<form>
+    Ingresa tu dirección:<br>
+    <textarea rows="2" cols="20"></textarea>
+</form>
+```
+
+## Label
+
+Se considera usar `<label>` en `<form>` ya que hace que el código sea amigable para el analizador/navegador/usuario. Si haces clic en la etiqueta `<label>`, se centrará en el control de texto (en la caja donde se introduce el texto), esto tiene mayor funcionalidad en pantallas táctiles. Para hacerlo, debes tener el atributo *for* en la etiqueta `<label>` cuyo valor debe ser el mismo que el valor del atributo *id* de la etiqueta `<input>`.
+
+```
+<form>
+    <label for="firstname">Nombre: </label>
+    <input type="text" id="firstname"/>
+    <br/>
+</form>
+```
+
+## Control de botón de radio
+
+El botón de radio se utiliza para seleccionar una opción entre múltiples opciones. Si usas un nombre para multiples botones de radio, solo se podrá seleccionar un botón de radio a la vez.
+
+```
+<form>
+    <label for="gender">Genero: </label>
+    <label for="male">Masculino</label>
+    <input type="radio" id="male" name="gender" value="male"/>
+    <label for="female">Femenino</label>
+    <input type="radio" id="female" name="gender" value="female"/>
+    <label for="other">Otro</label>
+    <input type="radio" id="other" name="gender" value="other"/>
+</form>
+```
+
+## Control de checkbox
+
+Se utiliza para marcar múltiples opciones de casillas de verificación dadas.
+
+```
+<form>
+    Pasatiempo:
+    <br>
+    <input type="checkbox" id="sing" name="sing" value="sing"/>
+    <label for="sing">Cantar</label>
+    <br>
+    <input type="checkbox" id="football" name="football" value="football"/>
+    <label for="football">Futbol</label>
+    <br>
+    <input type="checkbox" id="reading" name="reading" value="reading"/>
+    <label for="reading">Leer</label>
+</form>
+```
+
+## Botón
+
+```<input type="button" value="Enviar">```
+
+## Fieldset
+
+Se usa para agrupar la información relacionada de un formulario. Este elemento se usa con el elemento `<legend>` que proporciona un título para los elementos agrupados.
+
+```
+<fieldset>
+    <legend>Información del usuario:</legend>
+    <label for="name">Introducir nombre</label>
+    <br>
+    <input type="text" id="name" name="name">
+    <br>
+    <label for="pass">Introducir contraseña</label>
+    <br>
+    <input type="Password" id="pass" name="pass">
+    <br>
+    <input type="button" value="Enviar">
+</fieldset>
+```
