@@ -184,7 +184,7 @@ Ejercicios: realiza la codificación de la siguientes tablas.
 ## Hipervínculos
 
 La etiqueta **anchor** `<a>` en HTML define un hipervínculo que vincula una página a otra página. Puede crear un hipervínculo a otra página web, así como a archivos, ubicación o cualquier URL. El atributo **href** es el atributo más importante de la etiqueta `<a>` en HTML y la que vincula a una determinada página o URL.
-``
+
 ```<a href=linkPagina>Click para ir a mi otra pagina web</a>```
 
 Si queremos abrir ese enlace en otra página, podemos usar el atributo **target**. Con la ayuda de este atributo la segunda página se abrirá en otra ventana del navegador.
@@ -326,4 +326,22 @@ Se usa para agrupar la información relacionada de un formulario. Este elemento 
     <br>
     <input type="button" value="Enviar">
 </fieldset>
+```
+
+## Select
+
+Se utiliza para crear menús desplegables para que los usuarios puedan seleccionar el valor que deseen.
+
+```
+<label for="lang">Lenguaje</label>
+      <select name="lenguajes" id="lang">
+        <option value="javascript">JavaScript</option>
+        <option value="php">PHP</option>
+        <option value="java">Java</option>
+        <option value="golang">Golang</option>
+        <option value="python">Python</option>
+        <option value="c#">C#</option>
+        <option value="C++">C++</option>
+        <option value="erlang">Erlang</option>
+      </select>
 ```
