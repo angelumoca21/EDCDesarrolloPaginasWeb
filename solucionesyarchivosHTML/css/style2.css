@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    color: red;
+}
+
+#nombre{
+    color: blue;
+}
+
+.clase{
+    color: green;
+}
+
+.hi{
+    background-color: green;
+}
+
+button{
+    background-color: red;
+}
+
+p{
+    text-align: center;
+    color: blue;
+}
+
+#idElemento {
+    color: red;
+}
+
+.center{
+    text-align: center;
+    color: blue;
+}
+
+h3,h4,span{
+    text-align: center;
+    color: orange;
+}

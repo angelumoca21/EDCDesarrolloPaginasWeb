@@ -1,0 +1,26 @@
+body{
+    background-color: aquamarine;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+p strong{
+    color: blue;
+}
+
+h1, h2, h3{
+    color: grey;
+}
+
+article{
+    color: yellow;
+}
+
+h3{
+    border: inherit;
+}
+
+#elemento2{
+    color: initial;
+}

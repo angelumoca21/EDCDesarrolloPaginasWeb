@@ -10,7 +10,7 @@
 2. [Herramientas para la creación de páginas web](./herramientasPaginasWeb.md)
 3. [Estructura básica de un documento HTML](./estructuraBasica.md)
 4. [Lenguaje HTML](./lenguajeHTML.md)
-5. [Lenguaje CSS]()
+5. [Lenguaje CSS](./lenguajeCSS.md)
 6. Proyecto final
 
 [**Link a moodle**](https://educacion.pilares.cdmx.gob.mx/)
