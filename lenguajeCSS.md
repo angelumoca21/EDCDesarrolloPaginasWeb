@@ -73,22 +73,10 @@ selector {
 - **Propiedad:** es una de las diferentes características que brinda el lenguaje CSS y que aplicaremos al selector para darle estilo.
 - **Valor:** cada propiedad CSS tiene una serie de valores concretos a que se le pueden asignar, con los que tendrá uno u otro comportamiento.
 
-### Clases
-
-El uso de clases en CSS permite abstraerse del elemento en particular y construir reglas que se apliquen a toda aquella etiqueta HTML que cuente con el atributo `class` correspondiente. Aquí es importante resaltar que las clases pueden aplicarse a diversos elementos. Cuando construimos reglas para clases, debemos incluir el `.` (punto) antes del nombre. Ejemplo:
-```.nombre_clase {propiedad:valor;}```
-
-### ID'S 
-
-Si creamos reglas para una determinada `id`, debemos anteponerle el símbolo #. Ejemplo:
-```#nombre_id {propiedad:valor;}```
-
 ## Herencia en CSS
 
 Algunas propiedades CSS se heredan desde los elementos padres a los elementos hijos, modificando el valor que tienen por defecto.
 Además de los valores habituales de cada propiedad CSS, también podemos aplicar ciertos valores especiales que son comunes a todas las propiedades existentes. Con estos valores modificamos el comportamiento de la herencia en dicha propiedad:
-
-![espacialesHerencia](./imagenes/especialesHerencia.png)
 
 ## Cascada en CSS
 
@@ -125,8 +113,7 @@ Sin embargo, puede ocurrir que en determinados casos no esté tan claro cuál es
 </style>
 ```
 
-El navegador, para saber que bloque de estilos tiene prioridad sobre los demás, analiza (por orden) tres conceptos clave del código CSS: su **importancia**, su **especificidad** y su
-**orden**. 
+El navegador, para saber que bloque de estilos tiene prioridad sobre los demás, analiza (por orden) tres conceptos clave del código CSS: su **importancia**, su **especificidad** y su **orden**. 
 
 - La **importancia** de un código CSS se determina dependiendo de las hojas de estilo donde está colocado. Generalmente, no necesitaremos preocuparnos de este factor, pero siempre es una buena idea conocer como funciona. Existen varios tipos de hojas de estilo, de menor a mayor importancia:
 
@@ -135,6 +122,7 @@ El navegador, para saber que bloque de estilos tiene prioridad sobre los demás,
 Aunque no es recomendable utilizarlo frecuentemente (puede convertirse en una mala práctica), se puede añadir al final de cada regla el texto `!important`, consiguiendo que la regla en cuestión tenga prioridad sobre las demás, independientemente del nivel o la altura a la que estén.
 
 Si la importancia no elimina la ambigüedad, se pasa a determinar la:
+
 - **Especificidad** de los selectores CSS, que es uno de los criterios más importantes de la cascada de CSS. Para determinar la especificidad de un selector, se sigue un cálculo matemático que podríamos pensarlo como en un sistema en el cual se suman y comparan los puntos acumulados: los *elementos valen 1 punto; las clases 10 puntos; los identificadores 100 puntos y la declaración de estilo inline 1000 puntos.*
     - Ganará la regla más específica.
     - Si resulta que dos o más reglas tienen el mismo puntaje, triunfará la que se encuentre más abajo en la cascada.
@@ -162,6 +150,7 @@ En CSS, es posible crear múltiples reglas CSS para definir un mismo concepto. E
 ## Selectores en CSS
 
 Los selectores de CSS se utilizan para seleccionar el contenido que se desea diseñar. Los selectores son parte del conjunto de reglas CSS. Hay varios tipos diferentes de selectores en CSS.
+
 - **Selector de elementos CSS:** El selector de elementos selecciona el elemento HTML por su nombre.
 ```
 div {
@@ -213,3 +202,119 @@ div {
 ### Otros tipos de selectores
 
 ![otroSelectores](./imagenes/otrosSelectores.png)
+
+## Estilos en texto
+
+- La propiedad de `color` se utiliza para establecer el color del texto. El color se especifica por:
+    - Un nombre de color como: "red"
+    - un valor HEX como: "#ff0000"
+    - un valor RGB como: "rgb(255,0,0)"
+- La propiedad de `background-color` se utiliza para definir el color del fondo.
+- La propiedad `word-spacing` se utiliza para especificar el espacio entre las palabras de un texto. 
+```
+<h1>Uso de espacios entre palabras</h1>
+<p>Este es un párrafo con espaciado entre palabras normal.</p>
+<p class="one">Este es un párrafo con espacio entre palabras más grande.</p>
+<p class="two">Este es un párrafo con espacio entre palabras más pequeño.</p>
+<style>
+    p.one {
+        word-spacing: 10px;
+    }
+    p.two {
+        word-spacing: -2px;
+    }
+</style>
+```
+- La propiedad `letter-spacing` se utiliza para especificar el espacio
+entre los caracteres de un texto.
+```
+<h1>Uso de espaciado entre letras</h1>
+<h2>Este es el encabezado 1</h2>
+<h3>Este es el encabezado 2</h3>
+<style>
+    h2 {
+        letter-spacing: 5px;
+    }
+    h3 {
+        letter-spacing: -2px;
+    }
+</style>
+```
+- La propiedad `text-decoration` se usa para agregar una línea de decoración al texto. Se puede combinar más de un valor, como tachado y subrayado, para mostrar líneas tanto encima como debajo de un texto.
+```
+<h1>Decoración de texto sobrelineado</h1>
+<h2>Decoración de texto entre líneas</h2>
+<h3>Decoración de texto subrayado</h3>
+<p class="ex">Decoración de texto subrayado y sobrelineado.</p>
+<p><strong>Nota:</strong> No se recomienda subrayar el texto que no sea un enlace, ya que esto a menudo confunde al lector.</p>
+<style>
+    h1 {
+        text-decoration: overline;
+    }
+    h2 {
+        text-decoration: line-through;
+    }
+    h3 {
+        text-decoration: underline;
+    }
+    p.ex {
+        text-decoration: overline underline;
+    }
+</style>
+```
+- La propiedad `text-decoration-color` se utiliza para establecer el color de la línea de decoración.
+
+## Modelo de caja CSS
+
+Cuando hablamos del modelo de cajas en CSS, estamos haciendo referencia a un sistema que tiene el navegador de interpretar las diferentes partes de lo que solemos denominar «caja»: un elemento HTML con unas ciertas dimensiones. La representación básica del modelo de cajas se basa en varios conceptos importantes, como veremos a continuación:
+![modeloCaja](https://lenguajecss.com/css/modelo-de-cajas/que-es/modelo-de-cajas.png)
+
+- **Border:** en negro, es el límite que separa el interior del exterior del elemento.
+- **Margin:** en naranja, es la parte exterior del elemento, por fuera del borde.
+- **Padding:** en verde, es la parte interior del elemento, entre el contenido y el borde.
+- **Content:** en azul, es la parte interior del elemento, excluyendo el relleno.
+
+El modelo de caja nos permite agregar un borde alrededor de los elementos y definir el espacio entre los elementos. Ejemplo:
+```
+<h2>Demostración del modelo de caja</h2>
+<p>
+    El modelo de caja CSS es esencialmente una caja que envuelve cada elemento en HTML. Consiste en: bordes, relleno, márgenes y el contenido real.
+</p>
+<div>
+    Este texto es el contenido de la caja. Hemos agregado un relleno de 50 px, un margen de 20 px y un borde verde de 15 px. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui oficia deserunt mollit anim id est laborum.
+</div>
+<style>
+    div {
+        background-color: lightgrey;
+        width: 300px;
+        border: 15px solid green;
+        padding: 50px;
+        margin: 20px;
+    }
+</style>
+```
+
+Ancho y alto de un elemento. Para establecer correctamente el ancho y el alto de un elemento en todos los navegadores, debes saber cómo funciona el modelo de caja. Es importante que cuando se establecen las propiedades de ancho y alto de un elemento con CSS, se establecen de igual manera el ancho y el alto del área de contenido. Para calcular el tamaño completo de un elemento, también debes agregar el tamaño del relleno, bordes y márgenes.
+Ejemplo:
+```
+<h2>Calcular el ancho total:</h2>
+<img src="ADIP.jpg" width="350" height="263" alt="Agencia
+Digital de Innovación Pública">
+<div>La imagen de arriba tiene 350px de ancho. El ancho total
+de este elemento también es 350px.</div>
+<style>
+div {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+}
+</style>
+```
+
+El ancho total de un elemento debe calcularse así:
+Ancho total del elemento = ancho + relleno izquierdo + relleno derecho + borde izquierdo
++ borde derecho + margen izquierdo + margen derecho
+
+La altura total de un elemento debe calcularse así:
+Altura total del elemento = altura + relleno superior + relleno inferior + borde superior + borde inferior + margen superior + margen inferior
