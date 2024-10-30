@@ -13,6 +13,6 @@
 5. [Lenguaje CSS](./lenguajeCSS.md) 
 6. Proyecto final
 
-![mockup](./imagenes/mockup.png)
-
 [**Link a moodle**](https://educacion.pilares.cdmx.gob.mx/)
+[portafolio](https://github.com/angelumoca21/Portafolio)
+![mockup](./imagenes/mockup.png)
