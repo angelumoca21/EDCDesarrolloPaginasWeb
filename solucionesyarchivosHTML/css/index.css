@@ -18,6 +18,7 @@ nav{
 
 h2{
     font-size: 36px;
+    line-height: 36px;
 }
 
 h3{
@@ -28,6 +29,21 @@ h3{
 
 p{
     text-align: justify;
+}
+
+ul{
+    list-style-type: none;
+}
+
+nav{
+    background-color: black;
+    height: 55px;
+}
+
+.logo{
+    float: left;
+    margin-right: 5px;
+    margin-top: 100px;
 }
 
 .hashtag{
@@ -41,4 +57,33 @@ p{
 
 #contactar{
     background-color: #F7C40D;
+}
+
+#portafolio
+{
+    border-top: solid #F7C40D 1px;
+}
+
+.seccion
+{
+    padding: 10px 100px 10px 100px;
+    /*padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;*/
+}
+
+#inicio{
+    background-image: url("../imagenes/inicio.png");
+    min-height: 280px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logoRedes{
+    width: 50px;
+}
+
+.navItem{
+    float: left;
 }

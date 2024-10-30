@@ -10,34 +10,50 @@
     <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
-    <nav>
+    <nav class="seccion">
         <ul>
-            <li><a href="#sobremi">SOBRE MI</a></li>
-            <li><a href="#portafolio">PORTAFOLIO</a></li>
-            <li><img src="./imagenes/audifonosLogo.png" alt="logoLuisMartinez"></li>
-            <li><a href="#skills">SKILLS</a></li>
-            <li><a href="#contactar">CONTACTAR</a></li>
+            <li class="navItem"><a href="#sobremi">SOBRE MI</a></li>
+            <li class="navItem"><a href="#portafolio">PORTAFOLIO</a></li>
+            <li class="navItem"><img src="./imagenes/audifonosLogo.png" alt="logoLuisMartinez"></li>
+            <li class="navItem"><a href="#skills">SKILLS</a></li>
+            <li class="navItem"><a href="#contactar">CONTACTAR</a></li>
         </ul>
     </nav>
-    <header>
+    <header id="inicio" class="seccion">
         <h2>LUIS MARTINEZ</h2>
         <h3 class="hashtag">#programador</h3>
         <h3 class="hashtag">#músico</h3>
         <ul>
-            <li><a href=""><i></i></a></li>
-            <li><a href=""><i></i></a></li>
-            <li><a href=""><i></i></a></li>
-            <li><a href=""><i></i></a></li>
+            <li class="logo">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img class="logoRedes" src="./imagenes/facebook.svg" alt="logoFacebook">
+                </a>
+            </li>
+            <li class="logo">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img class="logoRedes" src="./imagenes/instagram.svg" alt="logoInstagram">
+                </a>
+            </li>
+            <li class="logo">
+                <a href="https://x.com/" target="_blank">
+                    <img class="logoRedes" src="./imagenes/x.svg" alt="logoX">
+                </a>
+            </li>
+            <li class="logo">
+                <a href="https://www.youtube.com/" target="_blank">
+                    <img class="logoRedes" src="./imagenes/youtube.svg" alt="logoYouTube">
+                </a>
+            </li>
         </ul>
     </header>
     <main>
-        <section id="sobremi">
+        <section id="sobremi" class="seccion">
             <h2>SOBRE MÍ</h2>
             <img src="./imagenes/LuisMartinezFoto.png" alt="fotoLuisMartinez">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam corporis facere amet ipsa nostrum ducimus, totam alias nisi repellendus beatae veniam natus, officiis deserunt possimus rem animi! Alias, quibusdam fuga!</p>
             <input type="button" value="MAS INFO">
         </section>
-        <section id="portafolio">
+        <section id="portafolio" class="seccion">
             <h2>PORTAFOLIO</h2>
             <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
             <div>
@@ -69,7 +85,7 @@
                 <input type="button" value="MAS INFO">
             </div>
         </section>
-        <section id="skills">
+        <section id="skills" class="seccion">
             <h2>EXPERIENCIA & SKILLS</h2>
             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
             <div>
@@ -118,7 +134,7 @@
                 <img src="" alt="logo2">
             </div>
         </section>
-        <section id="contactar">
+        <section id="contactar" class="seccion">
             <h2>CONTACTO</h2>
             <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
             <form>
@@ -134,8 +150,8 @@
             </form>
         </section>
     </main>
-    <footer>
-        <img src="" alt="logoLuisMartinez">
+    <footer class="seccion">
+        <img src="./imagenes/audifonosLogo.png" alt="logoLuisMartinez">
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
     </footer>
 </body>
