@@ -300,8 +300,7 @@ Ejemplo:
 <h2>Calcular el ancho total:</h2>
 <img src="ADIP.jpg" width="350" height="263" alt="Agencia
 Digital de Innovación Pública">
-<div>La imagen de arriba tiene 350px de ancho. El ancho total
-de este elemento también es 350px.</div>
+<div>La imagen de arriba tiene 350px de ancho. El ancho total de este elemento también es 350px.</div>
 <style>
 div {
     width: 320px;
@@ -313,8 +312,20 @@ div {
 ```
 
 El ancho total de un elemento debe calcularse así:
-Ancho total del elemento = ancho + relleno izquierdo + relleno derecho + borde izquierdo
-+ borde derecho + margen izquierdo + margen derecho
+Ancho total del elemento = ancho + relleno izquierdo + relleno derecho + borde izquierdo + borde derecho + margen izquierdo + margen derecho
 
 La altura total de un elemento debe calcularse así:
 Altura total del elemento = altura + relleno superior + relleno inferior + borde superior + borde inferior + margen superior + margen inferior
+
+## Pseudoclases
+
+Una **pseudoclase** se puede definir como una palabra clave que se combina con un selector que define el estado especial de los elementos seleccionados. Se agrega al selector para agregar un efecto a los elementos existentes en función de sus estados.
+Las pseudoclases se definen añadiendo dos puntos (:) antes de la pseudoclase concreta. En el caso de existir selectores de etiqueta, id o clases, estas se escribirían a su izquierda.
+
+## Uso de Float
+
+La propiedad float de CSS es una propiedad de posicionamiento. Se utiliza para empujar un elemento hacia la izquierda o hacia la derecha, permitiendo que otro elemento lo rodee. Generalmente se usa con imágenes y diseños.
+La propiedad float puede tener uno de los siguientes valores:
+- **left:** el elemento flota a la izquierda de su contenedor.
+- **right:** el elemento flota a la derecha de su contenedor.
+- **none:** el elemento no flota (se mostrará justo donde aparece en el texto, esto es por defecto).
