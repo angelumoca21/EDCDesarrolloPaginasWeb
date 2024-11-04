@@ -51,6 +51,19 @@ li{
     margin-right: 5px;
 }
 
+section input{
+    border-radius: 15px;
+}
+
+#botonSobreMi{
+    background-color: #F7C40D;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 50px;
+    width: 150px;
+}
+
 #logoLuis{
     padding-top: 0px;
 }
@@ -71,6 +84,10 @@ li{
 #portafolio
 {
     border-top: solid #F7C40D 1px;
+}
+
+.tituloSubtitulo{
+    text-align: center;
 }
 
 .seccion
@@ -105,4 +122,78 @@ a:hover{
 .logos{
     width: 40px;
     margin-right: 15px;
+}
+
+#imagenFoto{
+    float: left;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#sobreMi
+{
+    display: inline-block;
+}
+
+#tituloSobreMi
+{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#parrafoSobreMi{
+    padding-bottom: 40px;
+}
+
+.sep{
+    border-top: solid #F7C40D;
+}
+
+.carta{
+    width: 250px;
+    background-color: #191919;
+    border-radius: 15px;
+}
+
+.carta img{
+    border-radius: 15px 15px 0 0;
+}
+
+.carta h3{
+    color: #F7C40D;
+}
+
+.carta h4{
+    margin: 0 5px 5px 0;
+}
+
+.carta .masInformacion{
+    margin: 15px 0 15px 0;
+    height: 26px;
+}
+
+.carta .masInformacion input{ 
+    background-color: #F7C40D;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: right;
+}
+
+.carta input{
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.carta h3, .carta h4, .carta p, .carta .masInformacion{
+    padding: 0 15px;
+}
+
+#filaPortafolio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px 30px;
 }
