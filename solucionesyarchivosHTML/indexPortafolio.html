@@ -166,18 +166,33 @@
             </div>
         </section>
         <section id="contactar" class="seccion">
-            <h2>CONTACTO</h2>
+            <h2 id="h2Contacto">CONTACTO</h2>
             <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
             <form>
-                <label for="nombre">Nombre</label>
-                <input type="text" id="nombre">
-                <label for="empresa">Empresa</label>
-                <input type="text" id="empresa">
-                <label for="email">Email</label>
-                <input type="email" id="email">
-                <label for="mensaje">Mensaje</label>
-                <input type="text" id="mensaje">
-                <input type="button" value="ENVIAR">
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input id="nombreForm" type="text" id="nombre">
+                    <br>
+                </div>
+                <div>
+                    <label for="empresa">Empresa</label>
+                    <input id="empresaForm" type="text" id="empresa">
+                    <br>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input id="emailForm" type="email" id="email">
+                    <br>
+                </div>
+                <div>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" rows="5" cols="30"></textarea>
+                    <br>
+                </div>
+                <div>
+                    <input id="botonEnviar" type="button" value="ENVIAR">
+                    <br>
+                </div>
             </form>
         </section>
     </main>
