@@ -12,7 +12,7 @@
 <body>
     <nav class="seccion">
         <ul>
-            <li><a href="#sobremi">SOBRE MI</a></li>
+            <li><a href="#sobreMi">SOBRE MI</a></li>
             <li><a href="#portafolio">PORTAFOLIO</a></li>
             <li id="logoLuis"><img src="./imagenes/audifonosLogo.png" alt="logoLuisMartinez"></li>
             <li><a href="#skills">SKILLS</a></li>
@@ -54,8 +54,8 @@
             <input id="botonSobreMi" type="button" value="MAS INFO">
         </section>
         <section id="portafolio" class="seccion">
-            <h2 class="tituloSubtitulo">PORTAFOLIO</h2>
-            <h3 class="tituloSubtitulo">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+            <h2 id="h2Portafolio" class="tituloSubtitulo">PORTAFOLIO</h2>
+            <h3 id="h3Portafolio" class="tituloSubtitulo">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
             <div id="filaPortafolio">
                 <div class="carta">
                     <img src="./imagenes/imagen_portfolio.png" alt="imagenPortafolio">
@@ -69,8 +69,8 @@
                 </div>
                 <div class="carta">
                     <img src="./imagenes/imagen_portfolio.png" alt="imagenPortafolio">
-                    <h3>Música</h3>
-                    <h4>Concierto benicassim</h4>
+                    <h3>Producción</h3>
+                    <h4>BSO videojuego</h4>
                     <div class="sep"></div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <div class="masInformacion">
@@ -79,8 +79,8 @@
                 </div>
                 <div class="carta">
                     <img src="./imagenes/imagen_portfolio.png" alt="imagenPortafolio">
-                    <h3>Música</h3>
-                    <h4>Concierto benicassim</h4>
+                    <h3>Web</h3>
+                    <h4>Web solomusicos</h4>
                     <div class="sep"></div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <div class="masInformacion">
@@ -89,8 +89,8 @@
                 </div>
                 <div class="carta">
                     <img src="./imagenes/imagen_portfolio.png" alt="imagenPortafolio">
-                    <h3>Música</h3>
-                    <h4>Concierto benicassim</h4>
+                    <h3>Diseño</h3>
+                    <h4>Cartel FBI</h4>
                     <div class="sep"></div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <div class="masInformacion">
@@ -100,52 +100,69 @@
             </div>
         </section>
         <section id="skills" class="seccion">
-            <h2>EXPERIENCIA & SKILLS</h2>
-            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
-            <div>
-                <h2>Diseño web</h2>
-                <img src="" alt="wordpress">
-                <img src="" alt="CSS">
-                <img src="" alt="HTML">
-                <h3>2018-2022</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </div>
-            <div>
-                <h2>Diseño web</h2>
-                <img src="" alt="wordpress">
-                <img src="" alt="CSS">
-                <img src="" alt="HTML">
-                <h3>2018-2022</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </div>
-            <div>
-                <h2>Diseño web</h2>
-                <img src="" alt="wordpress">
-                <img src="" alt="CSS">
-                <img src="" alt="HTML">
-                <h3>2018-2022</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </div>
-            <div>
-                <h2>Compositor senior</h2>
-                <h3>2018-2022</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                <img src="" alt="logo1">
-                <img src="" alt="logo2">
-            </div>
-            <div>
-                <h2>Compositor senior</h2>
-                <img src="" alt="logo1">
-                <img src="" alt="logo2">
-                <h3>2015-2022</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </div>
-            <div>
-                <h2>Diseño web</h2>
-                <h3>2015-2022</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                <img src="" alt="logo1">
-                <img src="" alt="logo2">
+            <h2 class="tituloSubtituloExperiencia"><span id="tituloExperiencia">EXPERIENCIA &</span> SKILLS</h2>
+            <h3 class="tituloSubtituloExperiencia">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+            <div id="containerExperiencia">
+                <div class="cartaExperiencia">
+                    <h2>Diseño web</h2>
+                    <h3 class="h3Experiencia">2018-2022</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <ul>
+                        <li><img src="./imagenes/tecno_au.png" alt="au" height="30px"></li>  
+                        <li><img src="./imagenes/tecno_cu.png" alt="cu" height="30px"></li>
+                        <li><img src="./imagenes/tecno_html.png" alt="HTML" height="30px"></li>
+                    </ul>               
+                </div>
+                <div class="cartaExperiencia">
+                    <h2>Diseño web</h2>
+                    <h3 class="h3Experiencia">2018-2022</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <ul>
+                        <li><img src="./imagenes/tecno_au.png" alt="au" height="30px"></li>  
+                        <li><img src="./imagenes/tecno_cu.png" alt="cu" height="30px"></li>
+                        <li><img src="./imagenes/tecno_html.png" alt="HTML" height="30px"></li>
+                    </ul>               
+                </div>
+                <div class="cartaExperiencia">
+                    <h2>Diseño web</h2>
+                    <h3 class="h3Experiencia">2018-2022</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <ul>
+                        <li><img src="./imagenes/tecno_au.png" alt="au" height="30px"></li>  
+                        <li><img src="./imagenes/tecno_cu.png" alt="cu" height="30px"></li>
+                        <li><img src="./imagenes/tecno_html.png" alt="HTML" height="30px"></li>
+                    </ul>               
+                </div>
+                <div class="cartaExperiencia">
+                    <h2>Diseño web</h2>
+                    <h3 class="h3Experiencia">2018-2022</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <ul>
+                        <li><img src="./imagenes/tecno_au.png" alt="au" height="30px"></li>  
+                        <li><img src="./imagenes/tecno_cu.png" alt="cu" height="30px"></li>
+                        <li><img src="./imagenes/tecno_html.png" alt="HTML" height="30px"></li>
+                    </ul>               
+                </div>
+                <div class="cartaExperiencia">
+                    <h2>Diseño web</h2>
+                    <h3 class="h3Experiencia">2018-2022</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <ul>
+                        <li><img src="./imagenes/tecno_au.png" alt="au" height="30px"></li>  
+                        <li><img src="./imagenes/tecno_cu.png" alt="cu" height="30px"></li>
+                        <li><img src="./imagenes/tecno_html.png" alt="HTML" height="30px"></li>
+                    </ul>               
+                </div>
+                <div class="cartaExperiencia">
+                    <h2>Diseño web</h2>
+                    <h3 class="h3Experiencia">2018-2022</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <ul>
+                        <li><img src="./imagenes/tecno_au.png" alt="au" height="30px"></li>  
+                        <li><img src="./imagenes/tecno_cu.png" alt="cu" height="30px"></li>
+                        <li><img src="./imagenes/tecno_html.png" alt="HTML" height="30px"></li>
+                    </ul>               
+                </div>
             </div>
         </section>
         <section id="contactar" class="seccion">
