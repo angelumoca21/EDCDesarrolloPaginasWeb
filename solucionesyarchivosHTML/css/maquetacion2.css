@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Source Code Pro';
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+}
+
+a:any-link{
+    color: #235B4E;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover{
+    color: #9F2241;
+}
+
+li
+{
+    list-style-type: none;
+}
+
+main{
+    background-image: url(https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg);
+    color: white;
+    font-size: 50px;
+    min-height: 338px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    border-top: solid 1px #98989A;
+}
+
+#vineta{
+    float: left;
+    margin-top: 50px;
+    margin-right: 25px;
+}
+
+.margen{
+    padding: 10px 100px 10px 100px;
+}
+
+#p1 {
+    margin-top: 60px;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+#p2 {
+    float: left;
+    font-weight: 300;
+    font-size: 35px;
+    margin-left: 126px;
+}
+
+#p3{
+    font-weight: 900;
+    font-size: 70px;
+}
+
+#p4{
+    font-weight: 900;
+    font-size: 70px;
+    margin-left: 312px;
+}
+
+#p5{
+    font-weight: 300;
+    font-size: 35px;
+    margin-left: 313px;
+}
+
+footer{
+    text-align: center;
+}
+
+h3{
+    color: #bc955c;
+    border-bottom: 10px;
+}
+
+#pfooter1{
+    color: #6F7271;
+    font-weight: 800;
+}
+
+#pfooter2{
+    color: #98989A;
+    font-weight: 500;
+}
