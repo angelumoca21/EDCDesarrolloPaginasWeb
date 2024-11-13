@@ -1,20 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>El túnel</title>
+    <title>El Túnel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/maquetacion3.css">
 </head>
 <body>
-    <header>
-        <h1>El Túnel</h1>
-        <ul>
-            <li><input type="text"></li>
-            <li><img src="../imagenes/lupa.svg" alt=""></li>
-            <li><img src="../imagenes/user.svg" alt=""></li>
-            <li><img src="../imagenes/fav.svg" alt=""></li>
-            <li><img src="../imagenes/bag.svg" alt=""></li>
+    <header class="margen">
+        <ul id="listaHeader">
+            <li class="espacioLogos"><a href="#"><img src="../imagenes/bag.svg" alt="Icono de bolsa"></a></li>
+            <li class="espacioLogos"><a href="#"><img src="../imagenes/fav.svg" alt="Icono favoritos"></a></li>
+            <li class="espacioLogos"><a href="#"><img src="../imagenes/user.svg" alt="Icono de usuario"></a></li>
+            <li><a href="#"><img id="iconoLupa" src="../imagenes/lupa.svg" alt="Icono de buscar"></a></li>
+            <li><input type="text" placeholder="  Buscar"></li>
         </ul>
+        <h1>El Túnel</h1>
+    </header>
         <nav>
             <ul>
                 <li><a href="#">Inicio</a></li>
@@ -25,12 +30,11 @@
                 </li>
             </ul>
         </nav>
-        <div>
-            <h2>...Creando nuevos mundos, historias y recuerdos</h2>
-            <h3>"Vivir consiste en construir futuros recuerdos"</h3>
+        <div id="portada" class="margen">
+            <p id="p1">...Creando nuevos mundos, historias y<br>recuerdos</p>
+            <p id="p2">"Vivir consiste en construir futuros recuerdos"</p>
         </div>
-    </header>
-    <main>
+    <main class="margen">
         <div>
             <p>Recomendaciones</p>
         </div>
@@ -46,8 +50,7 @@
             <img src="https://educacion.pilares.cdmx.gob.mx/pluginfile.php/11595/mod_assign/intro/libreria.jpg?time=1724351490552" alt="sucursal">
         </div>
     </main>
-    <footer>
-        
+    <footer class="margen">
     </footer>
 </body>
 </html>
