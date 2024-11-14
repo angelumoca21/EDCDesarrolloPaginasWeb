@@ -22,7 +22,7 @@ h1{
 
 #listaHeader li input{
     height: 30px;
-    border: solid #B95758 1px;
+    border: solid #91190A 1px;
     border-radius: 15px 0px 0px 15px;
 }
 
@@ -80,7 +80,7 @@ a:hover{
 }
 
 h2{
-    color: #94261D;
+    color: #91190A;
     font-size: 20px;
     padding-bottom: 10px;
 }
@@ -99,19 +99,81 @@ h4{
 }
 
 .botonVerMas{
-    background-color: #94261D;
+    background-color: #91190A;
     color: white;
-    border-radius: 5px;
-    border: #94261D;
+    border-radius: 3px;
+    border: #91190A;
     height: 25px;
     width: 60px;
     font-size: 10px;
-    margin-left: 70px;
+}
+
+.botonComprar{
+    background-color: #91190A;
+    color: white;
+    border-radius: 3px;
+    border: #91190A;
+    height: 20px;
+    width: 60px;
+    font-size: 10px;
 }
 
 .tarjetaLibro{
     display: flex;
     flex-direction: column;
     width: 180px;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+}
+
+.tarjetaLibro2{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#contenedorRecomendaciones{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+#contenedorLibros{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    overflow-x: scroll;
+    gap: 70px;
+}
+
+#contenedorRecomendaciones img{
+    height: 280px;
+}
+
+#contenedorLibros img{
+    height: 280px;
+}
+
+#linkVerMas{
+    color: #B5655B;
+}
+
+#contenedorTituloLibros{
+    display: flex;
+    justify-content: space-between;
+}
+
+#precio{
+    color: #B69A76;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#contenedorPrecioBoton{
+    display: flex;
+    gap: 10px;
 }
