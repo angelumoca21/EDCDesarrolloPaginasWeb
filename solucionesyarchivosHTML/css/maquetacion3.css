@@ -78,3 +78,40 @@ a:hover{
     text-align: center;
     padding: 40px;
 }
+
+h2{
+    color: #94261D;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+h3{
+    margin-top: 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+h4{
+    color: gray;
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.botonVerMas{
+    background-color: #94261D;
+    color: white;
+    border-radius: 5px;
+    border: #94261D;
+    height: 25px;
+    width: 60px;
+    font-size: 10px;
+    margin-left: 70px;
+}
+
+.tarjetaLibro{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    text-align: center;
+}
