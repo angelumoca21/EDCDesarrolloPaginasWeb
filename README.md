@@ -15,5 +15,8 @@
 
 [**Link a moodle**](https://educacion.pilares.cdmx.gob.mx/)
 
-[portafolio](https://github.com/angelumoca21/Portafolio)
+[Repositorio del portafolio](https://github.com/angelumoca21/Portafolio)
+
+[Poratafolio](https://angelumoca21.github.io/Portafolio/)
+
 ![mockup](./imagenes/mockup.png)
