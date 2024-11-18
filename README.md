@@ -17,6 +17,6 @@
 
 [Repositorio del portafolio](https://github.com/angelumoca21/Portafolio)
 
-[Poratafolio](https://angelumoca21.github.io/Portafolio/)
+[Portafolio](https://angelumoca21.github.io/Portafolio/)
 
 ![mockup](./imagenes/mockup.png)
