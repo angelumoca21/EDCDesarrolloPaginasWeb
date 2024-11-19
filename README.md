@@ -19,4 +19,8 @@
 
 [Portafolio](https://angelumoca21.github.io/Portafolio/)
 
+[Maquetación escuelas código](https://angelumoca21.github.io/escuelasDeCodigo/)
+
+[Maquetación librería el túnel](https://angelumoca21.github.io/libreriaElTunel/)
+
 ![mockup](./imagenes/mockup.png)
